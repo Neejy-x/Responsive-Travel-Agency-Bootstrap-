@@ -13,30 +13,22 @@
   <div class="wrapper position-relative">
     <nav class="navbar navbar-expand-lg z-2">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-light fw-lighter fs-2" style="font-family: serif;" href="#">Adams <span class="fst-italic fs-5">and </span> Butler</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link text-light" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link text-light" href="#">Pricing</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            
             </li>
           </ul>
         </div>
@@ -83,26 +75,77 @@
  <section class="team-sect">
     <div class="container">
       <div class="row team position-relative d-md-flex flex-row-reverse g-2 justify-content-between">
-          <div class="col-md-6 col-sm-12 team-text">
+          <div class="col-md-5 col-sm-12 team-text">
             <h1 class="display-md-4 display-5 team-head fw-lighter" style="font-family: serif;">
               Magical memories,<br>Bespoke experiences
             </h1>
-            <p class="team-body text-muted pt-xl-5" style="font-family: sans-serif;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aperiam vero sit reprehenderit praesentium sapiente pariatur necessitatibus nulla et! Reprehenderit rerum dicta possimus perspiciatis distinctio corrupti ab reiciendis vel repellat?</p>
-            <p class="team-body text-muted pt-xl-2" style="font-family: sans-serif;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quae saepe voluptatum accusantium nemo laboriosam voluptate, repellat exercitationem incidunt libero quos accusamus sunt nesciunt delectus, fuga dolore quis explicabo. Doloribus deleniti, </p>
+            <p class="team-body text-muted pt-md-5" style="font-family: sans-serif;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aperiam vero sit reprehenderit praesentium sapiente pariatur necessitatibus nulla et! Reprehenderit rerum dicta possimus perspiciatis distinctio corrupti ab reiciendis vel repellat?</p>
+            <p class="team-body text-muted pt-md-2" style="font-family: sans-serif;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quae saepe voluptatum accusantium nemo laboriosam voluptate, repellat exercitationem incidunt libero quos accusamus sunt nesciunt delectus, fuga dolore quis explicabo. Doloribus deleniti, </p>
 
             <a href="" class="text-uppercase team-link fw-semibold"><p>
               meet our team
             </p></a>
 
         </div>
-        <div class="col-md-5 col-sm-12 team-hero position-relative h-75">
-          <img src="assets/bryan-walker-v-IkXXcQ0Eo-unsplash-1229x1536.jpg" alt="" height="" class="z-2 position-absolute img-fluid" height="700px">
-          <img src="assets/mylon-ollila-j4ocWYAP_cs-unsplash-1500x993.jpg" height="400px" alt="" class="d-none d-lg-inline position-absolute top-10 end-50 z-1">
+        <div class="col-md-5 col-sm-12 team-hero position-relative">
+          <img src="assets/bryan-walker-v-IkXXcQ0Eo-unsplash-1229x1536.jpg" alt="" height="" class="z-2  img-fluid" width="500px">
+         
         </div> 
       
 
       </div>
     </div>
+</section>
+<div class="placeholde d-md-none" style="height: 320px;">
+
+</div>
+
+<section>
+  <div class="container">
+    <div class="form-text text-center">
+      <h1 class="display3 text-capitalizes text-muted pt-4">
+        Reach out to us to plan your trip
+      </h1>
+      <p class="text-muted fw-light">Tell us your needs and we will take care of them for you</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-sm-12 border-1 rounded-1 border-light">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <div class="mb-3 pt-3">
+        <label for="exampleInputEmail1" class="form-label pt-3">Your Full Name</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+      </div>
+     
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">How many people are traveling</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="3+">3+</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="details" class="form-label">Your needs</label>
+        <input type="text" class="form-control" id="details" style="height: 200px;">
+      </div>
+      
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="details-save">
+        <label class="form-check-label" for="details-save">Save my details</label>
+      </div>
+      <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+    </form>
+  </div>
+  </div>
+
+  </div>
 </section>
 
 
